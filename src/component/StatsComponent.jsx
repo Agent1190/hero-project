@@ -28,7 +28,7 @@ const StatsComponent = () => {
         {/* Mobile Image */}
         <div className="flex items-center justify-center inset-x-0">
           <Image
-            src="/images/web.png"
+            src="/images/Web.png"
             alt="Mobile UI"
             width={0}
             height={0}
