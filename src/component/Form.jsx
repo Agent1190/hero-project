@@ -20,7 +20,7 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-[#F8F8F8] py-10 px-4 sm:px-8 lg:px-24">
+    <div className="bg-[#F8F8F8] py-10 px-4 sm:px-8 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center justify-between">
         {/* Left Content */}
         <div className="max-w-lg">
@@ -97,7 +97,7 @@ const Form = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-2.5 rounded-full transition duration-200"
+              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-3 rounded-full transition duration-200 cursor-pointer"
             >
               {isLoading ? "Sending..." : "Submit"}
             </button>

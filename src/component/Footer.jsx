@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#2B2B2B] text-white py-10 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 items-start border-b border-gray-400 pb-8">
+        {/* Logo & Contact */}
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Image
@@ -16,11 +17,15 @@ const Footer = () => {
               width={150}
               height={50}
             />
+            {/* <h1 className="text-xl font-semibold text-[#58B2BE]">
+              Hero Project
+            </h1> */}
           </div>
           <p className="text-sm mb-2">+1 (7635) 547-12-97</p>
           <p className="text-sm">support@heroproject.com</p>
         </div>
 
+        {/* Social Links */}
         <div>
           <h3 className="font-sfpro-bold mb-3">Social Links</h3>
           <div className="flex gap-3">
@@ -45,22 +50,30 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Quick Links */}
         <div>
           <h3 className="font-sfpro-bold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="#" className="hover:text-[#58B2BE] transition">
+              <Link
+                href="/terms&conditions"
+                className="hover:text-[#58B2BE] transition"
+              >
                 Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-[#58B2BE] transition">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-[#58B2BE] transition"
+              >
                 Privacy Policy
               </Link>
             </li>
           </ul>
         </div>
 
+        {/* Subscribe */}
         <div>
           <h3 className="font-sfpro-bold mb-3">Subscribe</h3>
           <form className="flex items-center w-full">

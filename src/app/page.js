@@ -1,11 +1,10 @@
-import About from "@/component/About";
-import AppDownloadBanner from "@/component/AppDownloadBanner";
-import FAQPage from "@/component/FAQPage";
-import Footer from "@/component/Footer";
-import Form from "@/component/Form";
-import Hero from "@/component/Hero";
-import PricingPlan from "@/component/PricingPlan";
-import TestimonialCarousel from "@/component/TestimonialCarousel";
+import About from "../component/About";
+import AppDownloadBanner from "../component/AppDownloadBanner";
+import FAQPage from "../component/FAQPage";
+import Form from "../component/Form";
+import Hero from "../component/Hero";
+import PricingPlan from "../component/PricingPlan";
+import TestimonialCarousel from "../component/TestimonialCarousel";
 
 export default function Home() {
   return (
@@ -28,9 +27,6 @@ export default function Home() {
       </section>
       <div>
         <AppDownloadBanner />
-      </div>
-      <div>
-        <Footer />
       </div>
     </div>
   );

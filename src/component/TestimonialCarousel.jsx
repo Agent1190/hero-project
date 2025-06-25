@@ -10,42 +10,28 @@ const testimonials = [
     role: "Daughter & Care Team Lead",
     image: "/images/user1.png",
     message:
-      "The Hero Project helped our family stay in sync while caring for our dad. Logging visits and seeing everyone's updates gave us peace of mind.",
+      "“The Hero Project helped our family stay in sync while caring for our dad. Logging visits and seeing everyone's updates gave us peace of mind.”",
   },
   {
-    name: "Amira S.",
-    role: "Daughter & Care Team Lead",
+    name: "Janelle M.",
+    role: "Hospice Volunteer",
     image: "/images/user2.png",
     message:
-      "The Hero Project helped our family stay in sync while caring for our dad. Logging visits and seeing everyone's updates gave us peace of mind.",
+      " “The Uplift Messages came exactly when I needed them. They made long days feel lighter.”",
   },
   {
-    name: "David R.",
-    role: "Primary Caregiver & Son",
-    image: "/images/user1.png",
+    name: "Helen D.",
+    role: "Recovery Support Organizer",
+    image: "/images/user3.png",
     message:
-      "With the Hero Project, I no longer feel alone in managing Mom's care. My siblings can now easily stay informed and contribute, no matter where they are.",
+      "“It’s simple, thoughtful, and truly made our caregiving more coordinated.”",
   },
   {
-    name: "Linda M.",
-    role: "Granddaughter & Organizer",
-    image: "/images/user2.png",
+    name: "Marco R.",
+    role: "Sibling & Team Member",
+    image: "/images/user4.png",
     message:
-      "Before using Hero Project, we struggled to track appointments and medications. Now everything’s in one place, and it’s made caregiving so much easier.",
-  },
-  {
-    name: "Mark A.",
-    role: "Neighbor & Volunteer",
-    image: "/images/user1.png",
-    message:
-      "Even as a neighbor helping occasionally, Hero Project makes it clear what’s needed. It’s an amazing tool for team-based caregiving.",
-  },
-  {
-    name: "Sophia K.",
-    role: "Sister & Remote Support",
-    image: "/images/user2.png",
-    message:
-      "Living in another state, I used to feel disconnected. Hero Project lets me check in, leave notes, and feel like part of the care team again.",
+      "“We all felt more connected. Even from different cities, we could show up for our mom in real ways.”",
   },
 ];
 

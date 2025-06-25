@@ -27,7 +27,7 @@ export default function PricingCard({
       className={`w-full max-w-sm lg:max-w-[18rem] xl:max-w-sm rounded-2xl p-6 ${textColor} shadow-2xl flex flex-col justify-between ${bgColor} mb-8 lg:mb-0`}
     >
       {/* Header */}
-      <div className="h-96">
+      <div className="lg:h-96">
         <div className="relative">
           <p className="absolute right-0 bg-white py-1.5 px-2.5 text-prime w-[4.55rem] rounded-lg flex">
             {popular}
@@ -50,20 +50,22 @@ export default function PricingCard({
         </div>
         <p className="text-xs xl:text-sm opacity-90 mb-4">{subtitle}</p>
 
-        <div className="text-3xl lg:text-4xl xl:text-5xl font-sfpro-bold mb-2">
-          {price}{" "}
-          <span className={`text-sm font-sfpro-regular ${subcolor}`}>
-            {priceSub}
-          </span>
+        <div className="flex items-center justify-between">
+          <div className="text-3xl lg:text-4xl xl:text-5xl font-sfpro-bold mb-2">
+            {price}{" "}
+            <span className={`text-sm font-sfpro-regular ${subcolor}`}>
+              {priceSub}
+            </span>
+          </div>
+
+          <div className="lg:hidden mb-3">
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            </button>
+          </div>
         </div>
 
-        <div className="md:hidden mb-3">
-          <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
-          </button>
-        </div>
-
-        <div className={`${isOpen ? "block" : "hidden"} md:block`}>
+        <div className={`${isOpen ? "block" : "hidden"} lg:block`}>
           <p className="text-base font-sfpro-medium mb-2">What’s included</p>
           <ul className="space-y-2 text-sm h-32">
             {features.map((feature, index) => (

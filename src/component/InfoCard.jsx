@@ -1,3 +1,5 @@
+// components/InfoCard.jsx
+
 export default function InfoCard({ emoji, title, description }) {
   return (
     <div className="bg-[#F4FAFA] rounded-xl p-3 max-w-md w-full border-3 border-[#F6FBFB] mx-auto">

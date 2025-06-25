@@ -1,4 +1,5 @@
 "use client";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 
 const FAQ = ({ title, subtitle, items }) => {
@@ -46,12 +47,20 @@ const FAQItem = ({ question, answer }) => {
           )}
         </span>
       </button>
-
-      {isOpen && (
-        <div className="mt-4 pr-12">
-          <p className="text-sm sm:text-base text-prime">{answer}</p>
-        </div>
-      )}
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            key="content"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.35, ease: "easeInOut" }}
+            className="pr-12 pb-4"
+          >
+            <p className="text-sm sm:text-base text-prime">{answer}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

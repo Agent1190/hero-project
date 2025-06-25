@@ -6,14 +6,17 @@ const Navbar = () => {
   return (
     <div className="w-full">
       <nav className="flex items-center justify-between px-4 py-3 bg-transparent lg:max-w-4xl xl:max-w-7xl mx-auto">
-        <div className="flex items-center space-x-2 w-24 md:w-32 lg:w-56 relative h-10 md:h-16 lg:h-20">
+        <Link
+          href="/"
+          className="flex items-center space-x-2 w-24 md:w-32 lg:w-56 relative h-10 md:h-16 lg:h-20"
+        >
           <Image
             src="/images/herologo.png"
             alt="Logo"
             fill
             className="object-contain"
           />
-        </div>
+        </Link>
         {/* Desktop Menu */}
         <div className="flex items-center space-x-6">
           <Link

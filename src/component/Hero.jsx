@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:64px_64px] rotate-[0deg] origin-center scale-200"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/90"></div>
       </div>
-      <div className="relative z-10 flex md:flex-row flex-col items-center justify-center w-full xl:max-w-7xl mx-auto px-4 xl:px-3 ">
+      <div className="relative z-10 flex md:flex-row flex-col items-center justify-center w-full lg:max-w-4xl xl:max-w-7xl mx-auto px-4 xl:px-3 ">
         <section className="flex items-center justify-center md:min-h-screen">
           <div className="max-w-4xl text-center md:text-left pr-2 ">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-sfpro-medium text-prime mb-2">
@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
             <Link
               href="/"
-              className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full hover:opacity-90 inner-shadow-blue"
+              className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full hover:opacity-90 inner-shadow-blue"
             >
               Get Started
             </Link>

@@ -56,6 +56,7 @@ const PricingPlan = () => {
         "Unlock the ability to view other team members' summaries",
         "Gain deeper insight into your team’s caregiving efforts",
         "Available across all joined projects ",
+        // "Dedicated support",
       ],
       textColor: "text-[#2B2B2B]",
       subcolor: "text-[#839297]",

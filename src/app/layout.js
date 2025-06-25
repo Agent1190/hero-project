@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/component/Navbar";
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,17 +18,17 @@ const geistMono = Geist_Mono({
 const myFont = localFont({
   src: [
     {
-      path: "../../public/fonts/SFPRODISPLAYREGULAR.otf",
+      path: "../../public/font/SFPRODISPLAYREGULAR.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/SFPRODISPLAYMEDIUM.otf",
+      path: "../../public/font/SFPRODISPLAYMEDIUM.otf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/fonts/SFPRODISPLAYBOLD.otf",
+      path: "../../public/font/SFPRODISPLAYBOLD.otf",
       weight: "700",
       style: "normal",
     },
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

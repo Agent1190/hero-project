@@ -20,7 +20,7 @@ const AppDownloadBanner = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3">
             <a
               href="#"
-              className="flex items-center gap-2 bg-[#338F95] text-prime px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
+              className="flex items-center gap-2 bg-[#338F95] text-prime justify-center w-40 h-14 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
             >
               <Image
                 src="/images/apple.png"
@@ -28,16 +28,18 @@ const AppDownloadBanner = () => {
                 width={24}
                 height={24}
               />
-              <div className="text-left leading-tight text-sm">
-                <p className="text-xs font-sfpro-regular text-white">
+              <div className="text-left leading-tight ">
+                <p className="text-sm font-sfpro-regular text-white">
                   Download on the
                 </p>
-                <p className="font-sfpro-medium text-white">App Store</p>
+                <p className="font-sfpro-medium text-white text-lg">
+                  App Store
+                </p>
               </div>
             </a>
             <a
               href="#"
-              className="flex items-center gap-2 bg-[#338F95] text-prime px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
+              className="flex items-center gap-2 bg-[#338F95] text-prime justify-center w-40 h-14 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
             >
               <Image
                 src="/images/play.png"
@@ -45,24 +47,26 @@ const AppDownloadBanner = () => {
                 width={24}
                 height={24}
               />
-              <div className="text-left leading-tight text-sm">
-                <p className="text-xs text-white font-sfpro-regular">
+              <div className="text-left leading-tight">
+                <p className="text-sm text-white font-sfpro-regular">
                   Get it on
                 </p>
-                <p className="font-sfpro-medium text-white">Google Play</p>
+                <p className="font-sfpro-medium text-white text-lg">
+                  Google Play
+                </p>
               </div>
             </a>
           </div>
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end relative lg:bottom-[4.3rem] left-0">
+        <div className="flex justify-center md:justify-end relative lg:bottom-[4rem] left-0">
           <Image
             src="/images/doctor.png" // Replace with your actual image
             alt="Doctor holding phone"
             width={300}
             height={300}
-            className="w-auto h-auto object-contain"
+            className="sm:w-[300px] lg:w-[310px] w-auto h-auto object-contain"
           />
         </div>
       </div>
