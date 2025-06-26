@@ -20,7 +20,7 @@ export default function PricingCard({
   bttext,
   popular,
 }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div

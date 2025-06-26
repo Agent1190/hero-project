@@ -33,7 +33,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full hover:opacity-90 inner-shadow-blue"
+            className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white inline-flex w-[122px] h-[37px] md:w-[152px] md:h-[45px] items-center justify-center rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
           >
             Download App
           </Link>

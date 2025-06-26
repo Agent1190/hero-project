@@ -23,7 +23,7 @@ const Hero = () => {
             </p>
             <a
               href="/"
-              className="bg-gradient-custom text-[14px] sm:text-base lg:text-[18px] justify-center items-center text-white w-[152px] h-[45px] inline-flex rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
+              className="bg-gradient-custom text-[14px] sm:text-base lg:text-[18px] justify-center items-center text-white w-[122px] h-[37px] md:w-[152px] md:h-[45px] inline-flex rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
             >
               Get Started
             </a>
