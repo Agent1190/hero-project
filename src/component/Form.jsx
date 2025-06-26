@@ -78,7 +78,7 @@ const Form = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm md:text-base font-medium text-prime mb-1"
+                className="block text-sm md:text-base font-sfpro-medium text-prime mb-1"
               >
                 Description
               </label>
@@ -90,14 +90,14 @@ const Form = () => {
                 placeholder="Describe Your Query"
                 required
                 rows={4}
-                className="w-full px-4 py-2 border border-[#E5E7EB] rounded-md focus:outline-none"
+                className="w-full px-4 py-2 border border-[#E5E7EB] rounded-md font-sfpro-medium focus:outline-none"
               ></textarea>
             </div>
 
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-3 rounded-full transition duration-200 cursor-pointer text-base"
+              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-sfpro-bold py-3 rounded-full transition duration-200 cursor-pointer text-base"
             >
               {isLoading ? "Sending..." : "Submit"}
             </button>

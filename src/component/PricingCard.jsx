@@ -45,7 +45,7 @@ export default function PricingCard({
             />
           </div>
           <div className="ml-4">
-            <p className="text-sm sm:text-lg lg:text-base xl:text-lg opacity-90 mb-1">
+            <p className="text-sm sm:text-lg lg:text-base xl:text-lg opacity-90 mb-1  font-sfpro-regular">
               {audience}
             </p>
             <h3 className="text-lg sm:text-lg lg:text-base xl:text-2xl font-sfpro-bold mb-1">
@@ -53,7 +53,9 @@ export default function PricingCard({
             </h3>
           </div>
         </div>
-        <p className="text-base xl:text-lg opacity-90 mb-4">{subtitle}</p>
+        <p className="text-base xl:text-lg opacity-90 mb-4 font-sfpro-regular">
+          {subtitle}
+        </p>
 
         <div className="flex items-center justify-between">
           <div className="text-3xl lg:text-4xl xl:text-5xl font-sfpro-bold mb-2">

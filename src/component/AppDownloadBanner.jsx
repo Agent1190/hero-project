@@ -17,7 +17,7 @@ const AppDownloadBanner = () => {
           </p>
 
           {/* Store Buttons */}
-          <div className="flex flex-row items-center justify-center lg:justify-start gap-3">
+          <div className="flex flex-col xs:flex-row items-center justify-center lg:justify-start gap-3">
             <a
               href="#"
               className="flex items-center gap-2 bg-[#338F95] text-prime justify-center w-44 h-14 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
@@ -60,14 +60,15 @@ const AppDownloadBanner = () => {
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end relative lg:bottom-[4rem] left-0">
-          <Image
-            src="/images/doctor.png" // Replace with your actual image
-            alt="Doctor holding phone"
-            width={300}
-            height={300}
-            className="sm:w-[300px] lg:w-[310px] w-auto h-auto object-contain"
-          />
+        <div className="flex justify-center md:justify-end relative bottom-0 lg:bottom-13 left-0">
+          <div className="relative w-[300px]  sm:w-[350px] lg:w-[340px] aspect-square">
+            <Image
+              src="/images/doctor.png"
+              alt="Doctor holding phone"
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>

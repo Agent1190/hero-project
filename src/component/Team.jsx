@@ -36,7 +36,7 @@ const Team = () => {
           For Every <span className="text-prime"> Team </span> Behind <br /> a{" "}
           <span className="text-prime"> Hero </span>
         </h2>
-        <div className="relative w-full h-[30.5rem] mt-6">
+        <div className="relative w-full h-[30.5rem] lg:mt-[9.5rem] xl:mt-24">
           <Image
             src="/images/team.png"
             alt="team"
