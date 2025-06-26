@@ -9,8 +9,10 @@ import TestimonialCarousel from "../component/TestimonialCarousel";
 export default function Home() {
   return (
     <div className="">
-      <Hero />
-      <section id="about" className="scroll-mt-24">
+      <div>
+        <Hero />
+      </div>
+      <section id="about" className="scroll-mt-4">
         <About />
       </section>
       <div>
@@ -22,10 +24,10 @@ export default function Home() {
       <div>
         <FAQPage />
       </div>
-      <section id="contact" className="scroll-mt-24">
+      <section id="contact" className="scroll-mt-4">
         <Form />
       </section>
-      <div>
+      <div id="banner" className="scroll-mt-4">
         <AppDownloadBanner />
       </div>
     </div>

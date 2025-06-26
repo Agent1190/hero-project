@@ -4,7 +4,7 @@ import React from "react";
 const HeroProject = () => {
   return (
     <div className="text-center px-4 py-10">
-      <span className="text-sm md:text-xl text-[#A7A6AE] mb-4">
+      <span className="text-base md:text-2xl text-[#A7A6AE] mb-4 font-sfpro-regular">
         What Is the Hero Project?
       </span>
       <h2 className="text-3xl sm:text-4xl xl:text-5xl leading-12 md:leading-16 font-sfpro-medium">

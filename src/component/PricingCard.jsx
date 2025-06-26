@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PricingCard({
   icon,
@@ -94,11 +95,12 @@ export default function PricingCard({
       </div>
 
       {/* CTA */}
-      <button
-        className={`mt-6 w-full ${btColor} ${bttext} font-sfpro-medium py-4 rounded-full transition hover:opacity-80 cursor-pointer text-[20px]`}
+      <Link
+        href="#banner"
+        className={`mt-6 w-full ${btColor} ${bttext} font-sfpro-medium py-4 justify-center rounded-full transition hover:opacity-80 cursor-pointer text-[20px] inline-flex`}
       >
         Get started
-      </button>
+      </Link>
     </div>
   );
 }

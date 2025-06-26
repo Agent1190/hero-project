@@ -7,7 +7,7 @@ export default function InfoCard({ emoji, title, description }) {
         <span className="mr-2">{emoji}</span>
         {title}
       </h3>
-      <p className="text-sm sm:text-base lg:text-xl text-prime leading-relaxed font-sfpro-regular">
+      <p className="text-sm sm:text-base lg:text-lg text-prime leading-relaxed font-sfpro-regular">
         {description}
       </p>
     </div>

@@ -24,11 +24,11 @@ const Form = () => {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center justify-between">
         {/* Left Content */}
         <div className="max-w-lg">
-          <h2 className="text-3xl sm:text-4xl font-sfpro-medium text-prime ">
+          <h2 className="text-3xl sm:text-4xl font-sfpro-medium text-prime text-center lg:text-left">
             <span className="border-b-3 border-[#58B2BE]">Have </span>Any{" "}
             <span className="text-[#58B2BE] ">Questions?</span>
           </h2>
-          <p className="mt-4 text-[#9A9A9A] text-base sm:text-lg font-sfpro-regular">
+          <p className="mt-4 text-[#9A9A9A] text-base sm:text-lg font-sfpro-regular text-center lg:text-left">
             Have questions or need assistance? Our team is ready to guide you
             through every step of Hero Project
           </p>
@@ -52,14 +52,14 @@ const Form = () => {
                 onChange={handleChange}
                 placeholder="Enter Name"
                 required
-                className="w-full px-4 py-2 border border-[#E5E7EB] rounded-md focus:outline-none"
+                className="w-full px-4 py-2 border border-[#E5E7EB] font-sfpro-medium rounded-md focus:outline-none"
               />
             </div>
 
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm md:text-base font-medium text-prime mb-1"
+                className="block text-sm md:text-base font-sfpro-medium text-prime mb-1"
               >
                 Email
               </label>
@@ -71,7 +71,7 @@ const Form = () => {
                 onChange={handleChange}
                 placeholder="Enter Email"
                 required
-                className="w-full px-4 py-2 border border-[#E5E7EB] rounded-md focus:outline-none"
+                className="w-full px-4 py-2 border border-[#E5E7EB] rounded-md font-sfpro-medium focus:outline-none"
               />
             </div>
 

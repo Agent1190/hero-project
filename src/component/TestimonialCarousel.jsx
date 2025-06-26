@@ -66,11 +66,11 @@ const TestimonialCarousel = () => {
       <div className="max-w-7xl w-full flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
         <div className="flex flex-col items-center lg:items-start">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-sfpro-medium mb-2 text-center lg:text-left">
+            <h2 className="text-3xl xl:text-5xl font-sfpro-medium mb-2 text-center lg:text-left max-w-xs sm:max-w-sm">
               What <span className="text-prime font-sfpro-bold">Real </span>{" "}
               Users Are Saying
             </h2>
-            <p className="text-secondary mb-6 text-center lg:text-left font-sfpro-regular">
+            <p className="text-secondary mb-6 text-center lg:text-left font-sfpro-regular max-w-xs sm:max-w-sm text-lg sm:text-2xl">
               Compassionate care, powered by connection.
             </p>
           </div>

@@ -5,6 +5,16 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="relative w-full overflow-hidden bg-white mt-4 sm:mt-0">
+      <div
+        className="
+      absolute top-72 right-0                
+      w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[230px] lg:h-[300px]
+      bg-[#8DF2FF] blur-[70%] rounded-full
+      pointer-events-none                     
+      z-0                       
+      translate-x-0                       
+    "
+      />
       <div className="absolute inset-0 bg-white/80 backdrop-blur-[1px]"></div>
       <div className="absolute inset-0 z-0 overflow-hidden h-[38rem]">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:64px_64px] rotate-[0deg] origin-center scale-200"></div>
@@ -17,12 +27,12 @@ const Hero = () => {
               Where <span className="text-gradient-custom"> Care </span>
               Becomes a Team Effort.
             </h2>
-            <p className=" md:text-lg xl:text-2xl text-subtext mb-6 leading-relaxed">
+            <p className=" md:text-lg xl:text-2xl text-subtext mb-6 leading-relaxed font-sfpro-regular">
               Empowering families and caregivers to act as one - organized,
               supportive & present.
             </p>
             <a
-              href="/"
+              href="#banner"
               className="bg-gradient-custom text-[14px] sm:text-base lg:text-[18px] justify-center items-center text-white w-[122px] h-[37px] md:w-[152px] md:h-[45px] inline-flex rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
             >
               Get Started

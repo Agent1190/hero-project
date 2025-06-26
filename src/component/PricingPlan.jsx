@@ -72,7 +72,7 @@ const PricingPlan = () => {
         <h2 className="text-2xl md:text-4xl font-semibold mb-2 text-prime font-sfpro-regular">
           Affordable Pricing Plans
         </h2>
-        <p className="text-secondary mb-6 max-w-xl font-sfpro-regular">
+        <p className="text-secondary mb-6 max-w-xl font-sfpro-regular text-base sm:text-xl">
           Because we want this to be accessible to everyone
         </p>
       </div>

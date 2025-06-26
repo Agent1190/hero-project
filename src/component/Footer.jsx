@@ -14,12 +14,9 @@ const Footer = () => {
             <Image
               src="/images/herologo.png"
               alt="Hero Project Logo"
-              width={150}
-              height={50}
+              width={182}
+              height={32}
             />
-            {/* <h1 className="text-xl font-semibold text-[#58B2BE]">
-              Hero Project
-            </h1> */}
           </div>
           <p className="text-xl mb-2">+1 (7635) 547-12-97</p>
           <p className="text-base">support@heroproject.com</p>

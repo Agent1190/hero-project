@@ -5,7 +5,7 @@ import React from "react";
 
 const AppDownloadBanner = () => {
   return (
-    <section className="bg-gradient-custom text-white mt-44 mb-20 px-4">
+    <section className="bg-gradient-custom text-white mt-32 lg:mt-40 px-4">
       <div className="max-w-7xl h-[42rem] sm:h-[36rem] lg:h-60 mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
         {/* Left Content */}
         <div className="flex-1 text-left sm:text-center md:text-left pt-6 lg:pt-0">
@@ -60,7 +60,7 @@ const AppDownloadBanner = () => {
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end relative bottom-0 lg:bottom-13 left-0">
+        <div className="flex justify-center md:justify-end relative bottom-0 lg:bottom-[3.15rem] left-0">
           <div className="relative w-[300px]  sm:w-[350px] lg:w-[340px] aspect-square">
             <Image
               src="/images/doctor.png"

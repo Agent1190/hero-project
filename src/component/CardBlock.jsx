@@ -35,7 +35,7 @@ export default function CardBlock({
           </div>
 
           <h2
-            className={`text-lg lg:text-xl font-sfpro-medium py-1 rounded-md  ${
+            className={`text-[24px] lg:text-[32px] font-sfpro-medium py-1 rounded-md  ${
               textWhite ? "text-white" : "text-prime"
             }`}
           >

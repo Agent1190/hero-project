@@ -6,10 +6,12 @@ const FAQ = ({ title, subtitle, items }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h1 className="text-2xl font-archivo-bold sm:text-4xl text-prime">
+        <h1 className="text-2xl font-sfpro-regular sm:text-4xl text-prime">
           {title}
         </h1>
-        <p className="mt-4 text-sm sm:text-lg text-prime">{subtitle}</p>
+        <p className="mt-4 text-sm sm:text-lg text-prime font-sfpro-regular text-secondary">
+          {subtitle}
+        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
@@ -31,7 +33,7 @@ const FAQItem = ({ question, answer }) => {
         className="flex justify-between items-center w-full text-left focus:outline-none cursor-pointer"
       >
         <span>
-          <h3 className="text-base sm:text-2xl font-medium text-second">
+          <h3 className="text-base sm:text-2xl font-sfpro-regular text-prime">
             {question}
           </h3>
         </span>
@@ -55,9 +57,11 @@ const FAQItem = ({ question, answer }) => {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.35, ease: "easeInOut" }}
-            className="pr-12 pb-4"
+            className="pr-12"
           >
-            <p className="text-sm sm:text-xl text-prime">{answer}</p>
+            <p className="text-sm sm:text-xl text-prime font-sfpro-regular">
+              {answer}
+            </p>
           </motion.div>
         )}
       </AnimatePresence>
