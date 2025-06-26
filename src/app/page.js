@@ -8,7 +8,7 @@ import TestimonialCarousel from "../component/TestimonialCarousel";
 
 export default function Home() {
   return (
-    <div className=" ">
+    <div className="">
       <Hero />
       <section id="about" className="scroll-mt-24">
         <About />

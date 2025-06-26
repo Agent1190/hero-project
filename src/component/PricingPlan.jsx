@@ -76,7 +76,7 @@ const PricingPlan = () => {
           Because we want this to be accessible to everyone
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full lg:max-w-4xl xl:max-w-7xl mx-auto">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full lg:max-w-[60rem] xl:max-w-[1270px] mx-auto">
         {pricingPlans.map((plan, index) => (
           <PricingCard key={index} {...plan} />
         ))}

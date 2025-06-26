@@ -7,23 +7,26 @@ const HeroProject = () => {
       <span className="text-sm md:text-xl text-[#A7A6AE] mb-4">
         What Is the Hero Project?
       </span>
-      <h2 className="text-3xl xl:text-5xl leading-12 md:leading-16 font-sfpro-medium">
+      <h2 className="text-3xl sm:text-4xl xl:text-5xl leading-12 md:leading-16 font-sfpro-medium">
         <span className="text-secondary"> Hero Project is a </span> caregiving
         app{" "}
         <Image
           src="/images/home_icon.png" // Replace with your actual image path
           alt="Home Icon"
-          width={35}
-          height={35}
-          className="inline-block"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="inline-flex w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
         />
         <span className="text-secondary"> helping teams </span>log care, uplift{" "}
         <Image
           src="/images/upliftg.png" // Replace with your actual image path
           alt="Uplift Icon"
-          width={25}
-          height={25}
-          className="inline-block"
+          // fill
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="inline-flex w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
         />{" "}
         one another
         <span className="text-secondary"> and stay </span>

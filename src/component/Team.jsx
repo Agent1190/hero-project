@@ -46,7 +46,7 @@ const Team = () => {
         </div>
       </div>
       <div className="order-1 lg:order-2 flex flex-col flex-wrap justify-center gap-6 p-4 sm:p-8">
-        <h2 className="text-2xl font-sfpro-medium text-secondary p-6 text-center block lg:hidden">
+        <h2 className="text-3xl sm:text-4xl font-sfpro-medium text-secondary p-6 text-center block lg:hidden">
           For Every <span className="text-prime"> Team </span> Behind <br /> a{" "}
           <span className="text-prime"> Hero </span>
         </h2>

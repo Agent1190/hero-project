@@ -40,7 +40,7 @@ const Form = () => {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-prime mb-1"
+                className="block text-sm md:text-base font-medium text-prime mb-1"
               >
                 Full Name
               </label>
@@ -59,7 +59,7 @@ const Form = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-prime mb-1"
+                className="block text-sm md:text-base font-medium text-prime mb-1"
               >
                 Email
               </label>
@@ -78,7 +78,7 @@ const Form = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-prime mb-1"
+                className="block text-sm md:text-base font-medium text-prime mb-1"
               >
                 Description
               </label>
@@ -97,7 +97,7 @@ const Form = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-3 rounded-full transition duration-200 cursor-pointer"
+              className="w-full bg-gradient-custom hover:opacity-90 inner-shadow-blue text-white font-semibold py-3 rounded-full transition duration-200 cursor-pointer text-base"
             >
               {isLoading ? "Sending..." : "Submit"}
             </button>

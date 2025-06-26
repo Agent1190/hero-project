@@ -24,10 +24,10 @@ export default function PricingCard({
 
   return (
     <div
-      className={`w-full max-w-sm lg:max-w-[18rem] xl:max-w-sm rounded-2xl p-6 ${textColor} shadow-2xl flex flex-col justify-between ${bgColor} mb-8 lg:mb-0`}
+      className={`w-full max-w-sm lg:max-w-[19rem] xl:max-w-[405px] rounded-2xl p-6 ${textColor} shadow-2xl flex flex-col justify-between ${bgColor} mb-8 lg:mb-0`}
     >
       {/* Header */}
-      <div className="lg:h-96">
+      <div className=" lg:h-[27rem] xl:h-96">
         <div className="relative">
           <p className="absolute right-0 bg-white py-1.5 px-2.5 text-prime w-[4.55rem] rounded-lg flex">
             {popular}
@@ -37,18 +37,23 @@ export default function PricingCard({
           <div>
             <Image
               src={icon}
-              width={60}
-              height={100}
+              width={0}
+              height={0}
+              sizes="100vw"
               alt="icon"
-              className="object-contain"
+              className="object-contain w-12 h-12 md:w-16 md:h-16"
             />
           </div>
           <div className="ml-4">
-            <p className="text-sm sm:text-base opacity-90 mb-1">{audience}</p>
-            <h3 className="text-lg xl:text-xl font-sfpro-bold mb-1">{title}</h3>
+            <p className="text-sm sm:text-lg lg:text-base xl:text-lg opacity-90 mb-1">
+              {audience}
+            </p>
+            <h3 className="text-lg sm:text-lg lg:text-base xl:text-2xl font-sfpro-bold mb-1">
+              {title}
+            </h3>
           </div>
         </div>
-        <p className="text-xs xl:text-sm opacity-90 mb-4">{subtitle}</p>
+        <p className="text-base xl:text-lg opacity-90 mb-4">{subtitle}</p>
 
         <div className="flex items-center justify-between">
           <div className="text-3xl lg:text-4xl xl:text-5xl font-sfpro-bold mb-2">
@@ -77,7 +82,9 @@ export default function PricingCard({
                   alt="icon"
                   className="object-contain"
                 />
-                <span className="leading-5 text-sm">{feature}</span>
+                <span className="leading-5 text-lg font-sfpro-regular">
+                  {feature}
+                </span>
               </li>
             ))}
           </ul>
@@ -86,7 +93,7 @@ export default function PricingCard({
 
       {/* CTA */}
       <button
-        className={`mt-6 w-full ${btColor} ${bttext} font-semibold py-4 rounded-full transition hover:opacity-80 cursor-pointer`}
+        className={`mt-6 w-full ${btColor} ${bttext} font-sfpro-medium py-4 rounded-full transition hover:opacity-80 cursor-pointer text-[20px]`}
       >
         Get started
       </button>

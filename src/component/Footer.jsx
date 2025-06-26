@@ -21,13 +21,13 @@ const Footer = () => {
               Hero Project
             </h1> */}
           </div>
-          <p className="text-sm mb-2">+1 (7635) 547-12-97</p>
-          <p className="text-sm">support@heroproject.com</p>
+          <p className="text-xl mb-2">+1 (7635) 547-12-97</p>
+          <p className="text-base">support@heroproject.com</p>
         </div>
 
         {/* Social Links */}
         <div>
-          <h3 className="font-sfpro-bold mb-3">Social Links</h3>
+          <h3 className="font-sfpro-bold mb-3 text-lg">Social Links</h3>
           <div className="flex gap-3">
             <a
               href="#"
@@ -52,8 +52,8 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h3 className="font-sfpro-bold mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
+          <h3 className="font-sfpro-bold mb-3 text-lg">Quick Links</h3>
+          <ul className="space-y-2 text-lg">
             <li>
               <Link
                 href="/terms&conditions"
@@ -75,16 +75,16 @@ const Footer = () => {
 
         {/* Subscribe */}
         <div>
-          <h3 className="font-sfpro-bold mb-3">Subscribe</h3>
+          <h3 className="font-sfpro-bold mb-3 text-lg">Subscribe</h3>
           <form className="flex items-center w-full">
             <input
               type="email"
               placeholder="Get product updates"
-              className="flex-1 px-3 py-2 rounded-l-md text-black bg-white text-sm focus:outline-none border border-[#E5E7EB]"
+              className="w-[248px] h-[50px] px-3 py-2 rounded-l-md text-prime bg-white text-sm focus:outline-none border border-[#E5E7EB]"
             />
             <button
               type="submit"
-              className="bg-[#4DA3AE] px-3 py-2 rounded-r-md hover:bg-[#4ba6ad] transition cursor-pointer"
+              className="bg-[#4DA3AE] px-3 py-2 rounded-r-md hover:bg-[#4ba6ad] transition cursor-pointer w-[3rem] h-[3.2rem]"
             >
               <span className="text-white">→</span>
             </button>
@@ -93,7 +93,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="text-center text-sm text-white pt-6">
+      <div className="text-center text-base text-white pt-6 font-sfpro-regular">
         © 2025 Hero Project. All rights reserved
       </div>
     </footer>

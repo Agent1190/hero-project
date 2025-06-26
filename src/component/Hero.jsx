@@ -10,28 +10,26 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:64px_64px] rotate-[0deg] origin-center scale-200"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/90"></div>
       </div>
-      <div className="relative z-10 flex md:flex-row flex-col items-center justify-center w-full lg:max-w-4xl xl:max-w-7xl mx-auto px-4 xl:px-3 ">
-        <section className="flex items-center justify-center md:min-h-screen">
-          <div className="max-w-4xl text-center md:text-left pr-2 ">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-sfpro-medium text-prime mb-2">
-              Where <span className="text-gradient-custom">Care</span>
-            </h1>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-sfpro-medium text-prime mb-8">
+      <div className="relative z-10 flex lg:flex-row flex-col items-center justify-center w-full lg:max-w-[60rem] xl:max-w-[1270px] mx-auto px-4 lg:px-0">
+        <div className="flex items-center justify-center lg:max-w-[412px] xl:max-w-lg mx-auto">
+          <div className="max-w-4xl text-center lg:text-left my-4 lg:my-0">
+            <h2 className="text-4xl md:text-3xl lg:text-4xl xl:text-6xl font-sfpro-medium text-prime mb-2 leading-tight">
+              Where <span className="text-gradient-custom"> Care </span>
               Becomes a Team Effort.
             </h2>
-            <p className=" md:text-lg xl:text-xl text-gray-600 mb-10 leading-relaxed">
+            <p className=" md:text-lg xl:text-2xl text-subtext mb-6 leading-relaxed">
               Empowering families and caregivers to act as one - organized,
               supportive & present.
             </p>
-            <Link
+            <a
               href="/"
-              className="bg-gradient-custom text-[12px] sm:text-sm lg:text-[16px] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full hover:opacity-90 inner-shadow-blue"
+              className="bg-gradient-custom text-[14px] sm:text-base lg:text-[18px] justify-center items-center text-white w-[152px] h-[45px] inline-flex rounded-full hover:opacity-90 inner-shadow-blue font-sfpro-regular"
             >
               Get Started
-            </Link>
+            </a>
           </div>
-        </section>
-        <div className="max-w-4xl">
+        </div>
+        <div className="max-w-2xl mx-auto">
           <StatsComponent />
         </div>
       </div>

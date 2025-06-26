@@ -25,7 +25,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="lg:max-w-4xl xl:max-w-7xl mx-auto">
+    <div className="lg:max-w-[60rem] xl:max-w-[1270px] mx-auto">
       <HeroProject />
       <div>
         <div className="flex md:flex-row flex-col items-center justify-between p-4">
@@ -43,10 +43,10 @@ const About = () => {
       </div>
       <Team />
       <div className="p-6 flex flex-col items-center justify-center text-center px-4 py-10">
-        <h2 className="text-2xl md:text-4xl font-semibold mb-2 text-prime font-sfpro-regular">
+        <h2 className="text-2xl md:text-4xl mb-2 text-prime font-sfpro-regular">
           Care Is a Team Effort
         </h2>
-        <p className="text-secondary mb-6 max-w-xl font-sfpro-regular">
+        <p className="text-secondary mb-6 max-w-xl font-sfpro-regular text-base lg:text-xl">
           Whether you're near or far, Hero Project helps families stay informed,
           involved and inspired together.
         </p>

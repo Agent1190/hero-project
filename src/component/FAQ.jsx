@@ -31,7 +31,7 @@ const FAQItem = ({ question, answer }) => {
         className="flex justify-between items-center w-full text-left focus:outline-none cursor-pointer"
       >
         <span>
-          <h3 className="text-sm sm:text-lg font-medium text-second">
+          <h3 className="text-base sm:text-2xl font-medium text-second">
             {question}
           </h3>
         </span>
@@ -57,7 +57,7 @@ const FAQItem = ({ question, answer }) => {
             transition={{ duration: 0.35, ease: "easeInOut" }}
             className="pr-12 pb-4"
           >
-            <p className="text-sm sm:text-base text-prime">{answer}</p>
+            <p className="text-sm sm:text-xl text-prime">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

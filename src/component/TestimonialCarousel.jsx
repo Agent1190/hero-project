@@ -17,7 +17,7 @@ const testimonials = [
     role: "Hospice Volunteer",
     image: "/images/user2.png",
     message:
-      " “The Uplift Messages came exactly when I needed them. They made long days feel lighter.”",
+      "“The Uplift Messages came exactly when I needed them. They made long days feel lighter. Its simple and a thoughtful feature for caregivers. ”",
   },
   {
     name: "Helen D.",
@@ -70,7 +70,7 @@ const TestimonialCarousel = () => {
               What <span className="text-prime font-sfpro-bold">Real </span>{" "}
               Users Are Saying
             </h2>
-            <p className="text-gray-600 mb-6 text-center lg:text-left font-sfpro-regular">
+            <p className="text-secondary mb-6 text-center lg:text-left font-sfpro-regular">
               Compassionate care, powered by connection.
             </p>
           </div>
@@ -114,13 +114,15 @@ const TestimonialCarousel = () => {
                         className="rounded-full object-cover"
                       />
                       <div>
-                        <h4 className="font-semibold">{testimonial.name}</h4>
-                        <p className="text-sm text-secondary">
+                        <h4 className="font-sfpro-bold text-base sm:text-lg lg:text-2xl">
+                          {testimonial.name}
+                        </h4>
+                        <p className="text-sm lg:text-base text-secondary font-sfpro-regular">
                           {testimonial.role}
                         </p>
                       </div>
                     </div>
-                    <p className="text-secondary font-sfpro-regular">
+                    <p className="text-secondary font-sfpro-regular text-lg sm:text-lg lg:text-2xl">
                       {testimonial.message}
                     </p>
                   </div>

@@ -11,7 +11,7 @@ export default function CardBlock({
   return (
     <div className="w-full max-w-sm bg-white rounded-2xl shadow-md overflow-hidden mx-2 xl:mx-0 mb-4">
       {/* Image container with overlay */}
-      <div className="relative w-full h-[500px] md:h-[450px] lg:h-[500px] xl:h-[550px]">
+      <div className="relative w-[413px] h-[500px] md:h-[450px] lg:h-[550px] xl:h-[550px]">
         {/* Main Image */}
         <Image
           src={imageSrc}
